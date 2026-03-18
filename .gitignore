@@ -3,6 +3,15 @@ node_modules/
 .env.*
 !.env.example
 
+# Local secrets / configs
+.env.local
+.cursor/mcp.json
+mcp-config.json
+
+# Next.js build output
+.next/
+travel-ui/.next/
+
 # Logs
 logs/
 *.log
