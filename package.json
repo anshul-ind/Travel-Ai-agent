@@ -1,0 +1,18 @@
+{
+  "name": "ai-travel-agent",
+  "version": "1.0.0",
+  "description": "AI Travel Agent with Groq + Aviationstack + Trello",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "test:flights": "node flights.js",
+    "test:booking": "node tools/travel.js",
+    "test:trello": "node tools/trello.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "groq-sdk": "^0.7.0"
+  }
+}
